@@ -5,12 +5,10 @@
 #include "esp_camera.h"
 #include <UniversalTelegramBot.h>
 #include <ArduinoJson.h>
-// Replace with your network credentials
+// network credentials
 const char* ssid = "Padmaja";  //WiFi Name
 const char* password = "padmajakeella";  //WiFi Password
-// Use @myidbot to find out the chat ID of an individual or a group
-// You need to click "start" on a bot before it can message you 
-// Initialize Telegram BOT
+// Initializing Telegram BOT
 String chatId = "5864634065";
 String BOTtoken = "7452338008:AAE_OBBBM7ScyBHIu9Ip3s6vSF3VVtdhmv0";
 bool sendPhoto = false;
